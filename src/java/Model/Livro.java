@@ -13,6 +13,7 @@ import javax.persistence.Id;
 /**
  *
  * @author José Alexandre
+ * teste
  */
 @Entity
 public class Livro implements Serializable {
@@ -95,5 +96,5 @@ public class Livro implements Serializable {
     public void setTitulo(String titulo) {
         this.titulo = titulo;
     }
-
+    
 }

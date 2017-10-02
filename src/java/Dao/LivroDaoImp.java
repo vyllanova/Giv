@@ -51,6 +51,20 @@ public class LivroDaoImp implements LivroDao {
         Transaction t = session.beginTransaction();
         session.delete(livro);
         t.commit();
+        
+        public void remove2(Livro livro) {
+            Session session = HibernateUtil.getSessionFactory().openSession();
+            Transaction t = session.beginTransaction();
+            session.delete(livro);
+            t.commit();
+            
+        public void remove3(Livro livro) {
+            Session session = HibernateUtil.getSessionFactory().openSession();
+            Transaction t = session.beginTransaction();
+            session.delete(livro);
+            t.commit();
+            
+        
    
     
 }
