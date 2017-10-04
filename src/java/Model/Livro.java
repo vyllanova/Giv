@@ -96,5 +96,9 @@ public class Livro implements Serializable {
     public void setTitulo(String titulo) {
         this.titulo = titulo;
     }
+    public void setTitulo1(String titulo) {
+        this.titulo = titulo;
+    }
+    
     
 }
