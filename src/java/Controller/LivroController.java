@@ -73,5 +73,13 @@ public class LivroController {
         return "index";
 
     }
+    
+    public String alterarLivro1(){
+
+        LivroDao dao = new LivroDaoImp();
+        dao.update(livro);
+        return "index";
+
+    }
 
 }
