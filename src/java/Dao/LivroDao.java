@@ -19,6 +19,5 @@ public interface LivroDao {
     public Livro getLivro(long id);
     public List<Livro> list();
     public void remove(Livro livro);
-    public void update(Livro livro);
-
+    public void update(Livro livro);//referencia
 }
