@@ -15,7 +15,7 @@ import org.hibernate.Transaction;
  *
  * @author JosÃ© Alexandre
  */
-public class LivroDaoImp implements LivroDao { //mudança
+public class LivroDaoImp implements LivroDao { //mudança // mudança1
 
     public void save(Livro livro) {
         Session session = HibernateUtil.getSessionFactory().openSession();
