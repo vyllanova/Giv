@@ -1,7 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 
 package Dao;
 
@@ -11,11 +7,11 @@ import java.util.List;
 /**
  *
  * @author José Alexandre
-testecfg
- */
-public interface LivroDao {
 
-    public void save(Livro livro);
+ */
+public interface LivroDao{
+
+    public void save(Livro livro);//referencia
     public Livro getLivro(long id);
     public List<Livro> list();
     public void remove(Livro livro);
