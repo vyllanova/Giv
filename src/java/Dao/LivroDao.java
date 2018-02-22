@@ -15,7 +15,7 @@ testecfg
  */
 public interface LivroDao {
 
-    public void save(Livro livro);
+    public void save(Livro livro);//referencia
     public Livro getLivro(long id);
     public List<Livro> list();
     public void remove(Livro livro);
