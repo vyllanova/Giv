@@ -24,5 +24,6 @@
                 classpath="${tomcat.home}/lib/catalina-ant.jar"/>
 <!--        <undeploy url="${tomcat.url}/manager" username="${tomcat.username}" 
                   password="${tomcat.password}" path="${Context(path)}"/> -->
+        teste
     </target>
 </project>
