@@ -30,6 +30,6 @@ public class HibernateTest {
         //System.out.println(user.getNome());
 
         session.close();
-
+ //teste
     }
 }
